@@ -5,7 +5,7 @@ This project sets up a **Task Tracker API** and utilizes a **Blue-Green deployme
 ### Prerequisites
 
 - Setting up the **DB VM** and **Monitoring VM** either with **Terraform** or manually.
-- Configure the database with persistent volume (PV) and monitoring with persistent volume claim (PVC).
+- Configure the database with persistent volume (PV) and monitoring with persistent volume claim (PV).
 - **taskapi.drawio.png** diagram for visual setup.
 
 ### Architecture
