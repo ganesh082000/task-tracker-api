@@ -95,7 +95,7 @@ def get_db():
 # --- Endpoints ---
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "oknew"}
 
 @app.post("/tasks", response_model=Task)
 def create_task(task: Task, db: Session = Depends(get_db)):
